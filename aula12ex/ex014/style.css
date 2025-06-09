@@ -18,10 +18,19 @@ main{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.171);
 
 }
+div#msg{
+    text-align: center;
+}
+main div#msg p strong{
+    font: bolder 2em Arial;
+}
 main > div#foto{
     position: relative;
     height: 315px;
-    text-align: center;
+    
+}
+main div#msg p{
+    font-size: 1.2em;
 }
 div#foto > img{
     

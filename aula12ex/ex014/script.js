@@ -5,22 +5,24 @@ var data = new Date()
 var hora = data.getHours()
 var min = data.getMinutes()
 
+hora = (hora < 10) ? "0" + hora: hora;
 
+min = (min < 10) ? "0" + min : min;
 
 if(hora == 0 ){
-    msg.innerHTML = `Agora é MEIA-NOITE (${hora}:${min})`
+    msg.innerHTML = `<p>Agora é MEIA-NOITE (${hora}:${min})</p>`
     
 } else if(hora == 24){
-    msg.innerHTML = `Agora é MEIA-NOITE (${hora}:${min})`
+    msg.innerHTML = `<p>Agora é MEIA-NOITE (${hora}:${min})</p>`
     
 } else if(hora == 1){
-    msg.innerHTML = `Agora é ${hora}:${min}`
+    msg.innerHTML = `<p>Agora é ${hora}:${min}</p>`
     
 } else if (hora == 12){
-    msg.innerHTML = `Agora é MEIO-DIA (${hora}:${min})`
+    msg.innerHTML = `<p>Agora é MEIO-DIA (${hora}:${min})</p>`
 
 }else if(hora > 1 && hora < 24 ){
-    msg.innerHTML = `Agora são ${hora}:${min}`
+    msg.innerHTML = `<p>Agora são <strong>${hora}:${min}</strong></p>`
     
 }
 
@@ -48,3 +50,5 @@ if (hora > 0 && hora < 5){
 
 
 }
+
+setInterval(carregar, 1000);
