@@ -5,13 +5,13 @@
         columns: 2;
         display: none;
     }
-    div > ul:hover{
+    div:hover > ul{
         display: block;
     }
 
 </style>
 <div>
-Exemplo
+Exemplo 1
 <ul>
     <li><a href="aula04/" target="_blank">Aula 04</a></li>
     <li><a href="aula06/" target="_blank">Aula 06</a></li>
