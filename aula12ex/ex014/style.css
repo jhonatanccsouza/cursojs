@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background: rgb(70, 142, 236);
+    font: normal 16px Arial, Helvetica, sans-serif;
+    color: white;
+}
+header{
+    text-align: center;
+}
+main{
+    color: black;
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.171);
+
+}
+main > div#foto{
+    position: relative;
+    height: 315px;
+    text-align: center;
+}
+div#foto > img{
+    
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer{
+    text-align: center;
+}
