@@ -5,7 +5,9 @@
         columns: 2;
         display: none;
     }
-    ul
+    h1:focus{
+        display: block;
+    }
 
 </style>
 <h1>Lista Exemplo:
