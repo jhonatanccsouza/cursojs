@@ -4,9 +4,10 @@ Abra o console para executar os exercicios .js ou acesse o meu <a href="https://
 
 
 <ul>
-    <li><a href="ex008.js" target="_blank">EX008</a></li>
-    <li><a href="ex009.html" target="_blank">EX009</a></li>
+    <li><a href="ex008.js" target="_blank">EX008.js</a></li>
+    <li><a href="ex009.html" target="_blank">EX009.html</a></li>
     <li><a href="ex009.js" target="_blank">EX009.js</a></li>
+    <li><a href="ex010.html" target="_blank">EX010.html</a></li>
    
 </ul>
 
