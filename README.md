@@ -3,7 +3,7 @@
 <style>
     ul{
         columns: 2;
-        display: none;
+        
     }
     ul > li:hover > ul#oculta{
         display: block;
