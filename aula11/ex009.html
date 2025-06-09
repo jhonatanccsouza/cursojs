@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação</title>
+    <style>
+        body{
+            font: normal 18px Arial;
+        }
+        #botao{
+            width: 100px;
+
+        }
+        select{
+            width: 100px;
+            text-align: center;
+        }
+        div p {
+            font-size: 1.3em;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Selecione o seu país</h1>
+    <form action="">
+        <p>
+            <select name="txtpais" id="txtpais" >
+                <option value="BRA">Brasil</option>
+                <option value="EUA">Estados Unidos</option>              
+                <option value="UK">Alemanha</option>
+                <option value="FRA">França</option>
+            </select>
+                       
+                    
+        </p>
+        <input type="submit" value="Enviar" id="botao" onclick="verify()">
+    </form>
+
+    <div id="res">
+        
+
+    </div>
+
+    <script>
+        function verify() {
+            var txtp = document.getElementById('txtpais')
+            var p = String(txtp.value)
+            var res = document.getElementById('res')
+
+            if(p == 'BRA'){
+                alert('Você é Brasileiro!')
+
+            } else {
+                alert('Você é Estrangeiro!')
+            }
+
+        }
+    </script>
+</body>
+</html>
