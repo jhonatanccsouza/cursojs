@@ -5,12 +5,13 @@
         columns: 2;
         display: none;
     }
-    h1:focus{
+    div > ul:hover{
         display: block;
     }
 
 </style>
-<h1>Lista Exemplo:
+<div>
+Exemplo
 <ul>
     <li><a href="aula04/" target="_blank">Aula 04</a></li>
     <li><a href="aula06/" target="_blank">Aula 06</a></li>
@@ -20,7 +21,7 @@
     <li><a href="aula12/" target="_blank">Aula 12</a></li>
     <li><a href="aula12ex/" target="_blank">Aula </a></li>
 </ul>
-</h1>
+</div>
 
     
 
