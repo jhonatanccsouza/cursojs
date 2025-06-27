@@ -18,9 +18,21 @@ main{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.171);
 
 }
-div{
+div form p {
+    line-height: 25px;
+    margin-bottom: 10px;
+    
+    
 
 }
+div#principal form p#sexo {
+    margin-top: 5px;
+}
+div form p input {
+    margin-right: 15px;
+}
+
+
 footer{
     text-align: center;
 }
